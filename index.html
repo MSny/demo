@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Talia & Meir</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <style>
+      body { margin: 50px 0; background: url(images/bglight.png); }
+      .well { background: #fff; text-align: center; }
+      .filter {}
+      h1 { font-family: 'Pacifico', regular ; color: #E82727; }
+      a { color: #6b6b6b; }
+  </style>
+</head>
+<body>
+
+<div class="container well well-large">
+
+  <h1>Talia & Meir</h1>
+
+  <hr>
+  <ul class="filter nav nav-pills">
+    <button type="button" class="btn btn-default" data-value="all"><a href="#">All</a></button>
+    <button type="button" class="btn btn-primary" data-value="nom"><a href="#">Noms</a></button>
+    <button type="button" class="btn btn-success" data-value="nuzzle"><a href="#">Nuzzle Attacks</a></button>
+    <button type="button" class="btn btn-warning" data-value="cuddle"><a href="#">Cuddles</a></button>
+    </ul>
+    <!--
+    
+  <ul class="filter nav nav-pills">
+    <li data-value="all"><a href="#">All</a></li>
+    <li data-value="nom"><a href="#">Noms</a></li>
+    <li data-value="nuzzle"><a href="#">Nuzzle Attacks</a></li>
+    <li data-value="cuddle"><a href="#">Cuddles</a></li>
+  </ul>
+-->
+  <hr>
+
+  <ul class="thumbnails">
+    <button data-type="nom" data-id="id-1" class="span3">
+      <a href="#" class="thumbnail" id="nom1"><img src="images/nom1.jpg" alt=""></a>
+    </button>
+    <button data-type="nuzzle" data-id="id-2" class="span3">
+      <a href="#" class="thumbnail" id="nuzzle1"><img src="images/nuzzle1.jpg" alt=""></a>
+    </button>
+    <button data-type="cuddle" data-id="id-3" class="span3">
+      <a href="#" class="thumbnail" id="cuddle1"><img src="images/cuddle1.jpg" alt=""></a>
+    </button>
+    <button data-type="nom" data-id="id-4" class="span3">
+      <a href="#" class="thumbnail" id="nom2"><img src="images/nom2.jpg" alt=""></a>
+    </button>
+    <button data-type="nuzzle" data-id="id-5" class="span3">
+      <a href="#" class="thumbnail" id="nuzzle2"><img src="images/nuzzle2.jpg" alt=""></a>
+    </button>
+    <button data-type="cuddle" data-id="id-6" class="span3">
+      <a href="#" class="thumbnail" id="cuddle2"><img src="images/cuddle2.jpg" alt=""></a>
+    </button>
+    <button data-type="nom" data-id="id-7" class="span3">
+      <a href="#" class="thumbnail" id="nom3"><img src="images/nom3.jpg" alt=""></a>
+    </button>
+    <button data-type="nuzzle" data-id="id-8" class="span3">
+      <a href="#" class="thumbnail" id="nuzzle3"><img src="images/nuzzle3.jpg" alt=""></a>
+    </button>
+    <button data-type="cuddle" data-id="id-9" class="span3">
+      <a href="#" class="thumbnail" id="cuddle3"><img src="images/cuddle3.jpg" alt=""></a>
+    </button>
+    <button data-type="nom" data-id="id-10" class="span3">
+      <a href="#" class="thumbnail" id="nom4"><img src="images/nom4.jpg" alt=""></a>
+    </button>
+    <button data-type="nuzzle" data-id="id-11" class="span3">
+      <a href="#" class="thumbnail" id="nuzzle4"><img src="images/nuzzle4.jpg" alt=""></a>
+    </button>
+    <button data-type="cuddle" data-id="id-12" class="span3">
+      <a href="#" class="thumbnail" id="cuddle4"><img src="images/cuddle4.jpg" alt=""></a>
+    </button>
+    <button data-type="nom" data-id="id-13" class="span3">
+      <a href="#" class="thumbnail" id="nom5"><img src="images/nom5.jpg" alt=""></a>
+    </button>
+    <button data-type="nuzzle" data-id="id-14" class="span3">
+      <a href="#" class="thumbnail" id="nuzzle5"><img src="images/nuzzle5.jpg" alt=""></a>
+    </button>
+    <button data-type="cuddle" data-id="id-15" class="span3">
+      <a href="#" class="thumbnail" id="cuddle5"><img src="images/cuddle5.jpg" alt=""></a>
+    </button>
+     <button data-type="nom" data-id="id-16" class="span3">
+      <a href="#" class="thumbnail" id="nom6"><img src="images/nom6.jpg" alt=""></a>
+    </button>
+  </ul>
+
+</div>
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/bootbox.min.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script>
+    function gallery(){
+            $('#nom1').click(function() { bootbox.alert('<img src="images/nom1.jpg"><h4>David Birthday and Wedding</h4>'); });
+            $('#nuzzle1').click(function() { bootbox.alert('<img src="images/nuzzle1.jpg"><h4>nuzzle ipsum dolor sit amet</h4>'); });
+            $('#cuddle1').click(function() { bootbox.alert('<img src="images/cuddle1.jpg"><h4>My bed at Hartwick Apt</h4>'); });
+            $('#nom2').click(function() { bootbox.alert('<img src="images/nom2.jpg"><h4>Commons lobby during the summer I rented</h4>'); });
+            $('#nuzzle2').click(function() { bootbox.alert('<img src="images/nuzzle2.jpg"><h4>Bus Rides</h4>'); });
+            $('#cuddle2').click(function() { bootbox.alert('<img src="images/cuddle2.jpg"><h4>My bed at commons</h4>'); });
+            $('#nom3').click(function() { bootbox.alert('<img src="images/nom3.jpg"><h4>My bed at the View</h4>'); });
+            $('#nuzzle3').click(function() { bootbox.alert('<img src="images/nuzzle3.jpg"><h4>Museum of Natural History</h4>'); });
+            $('#cuddle3').click(function() { bootbox.alert('<img src="images/cuddle3.jpg"><h4>UMD Mall chilling</h4>'); });
+            $('#nom4').click(function() { bootbox.alert('<img src="images/nom4.jpg"><h4>NYC Highline</h4>'); });
+            $('#nuzzle4').click(function() { bootbox.alert('<img src="images/nuzzle4.jpg"><h4>Models</h4>'); });
+            $('#cuddle4').click(function() { bootbox.alert('<img src="images/cuddle4.jpg"><h4>Central Park</h4>'); });
+            $('#nom5').click(function() { bootbox.alert('<img src="images/nom5.jpg"><h4>Subway</h4>'); });
+            $('#nuzzle5').click(function() { bootbox.alert('<img src="images/nuzzle5.jpg"><h4>Washington Monument</h4>'); });
+            $('#cuddle5').click(function() { bootbox.alert('<img src="images/cuddle5.jpg"><h4>Bus Rides are the cuddliest</h4>'); });
+            $('#nom6').click(function() { bootbox.alert('<img src="images/nom6.jpg"><h4>Us modeling each others fashion</h4>'); });
+        }
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone(); 
+    var $filterClass = "";
+    $('ul.filter button').click(function(e) {
+    e.preventDefault();
+    $filterClass = $(this).attr('data-value');
+        if($filterClass == 'all'){ var $filters = $itemsClone.find('button'); }
+        else { var $filters = $itemsClone.find('button[data-type='+ $filterClass +']'); }
+        $itemsHolder.quicksand(
+          $filters,
+          { duration: 1000 },
+          gallery
+          );
+    });
+    $(document).ready(gallery);
+</script>
+
+  
+</body>
+</html>
